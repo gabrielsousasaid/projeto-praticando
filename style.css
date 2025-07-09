@@ -1,0 +1,92 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-image: url('imagens/fundo.jpeg');
+    background-attachment: fixed;
+}
+header{
+    background-image: url('imagens/fundotitulo.jpg');
+    text-align: center;
+    border-radius: 0px 0px 20px 20px;
+    min-height: 150px;
+    margin:auto;
+    max-width: 1300px;
+    
+    
+}
+header > h1{
+    color: white;
+    padding: 20px;
+    font-size: 40px;
+}
+header > h2 {
+    color: white;
+    padding: 20px;
+    font-size: 30px;
+}
+header > nav{
+    text-align: left;
+    background-color: rgb(250, 244, 244);
+    border-radius: 0px 0px 20px 20px;
+    padding: 15px;
+    margin: 40px 0px 0px 0px;
+    font-size: 20px;
+}
+nav > a{
+    margin: 100px;
+    font-size: 25px;
+    text-decoration: none;
+    background-color: black;
+    border-radius: 10px;
+    padding: 5px;
+    color: white;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+
+    
+}
+nav > a:hover{
+    text-decoration: underline;
+    
+}
+main{
+    background-color: rgba(0, 0, 0, 0.725);
+    max-width: 1300px;
+    margin: auto;
+    text-align: center;
+    margin-top: 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 50px 10px rgba(255, 255, 255, 0.3);
+    
+
+}
+#secaoprincipal{
+    color: white;
+}
+#secaoprincipal h1{
+    font-size: 50px;
+    padding: 20px;
+}
+#secaoprincipal p {
+    text-align: justify;
+    padding: 50px;
+}
+#fundopolo{
+    background-image: url('imagens/fundopolo.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+}
+#fundovolks{
+    background-image: url('imagens/fundotcross.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+}
+#fundohb20{
+    background-image: url('imagens/fundohb20.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+}
