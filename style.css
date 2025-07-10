@@ -8,6 +8,7 @@
 body{
     background-image: url('imagens/fundo.jpeg');
     background-attachment: fixed;
+    margin: 0px;
 }
 header{
     background-image: url('imagens/fundotitulo.jpg');
@@ -55,8 +56,9 @@ nav > a:hover{
 }
 main{
     background-color: rgba(0, 0, 0, 0.725);
-    max-width: 1300px;
     margin: auto;
+    max-width: 1300px;
+    
     text-align: center;
     margin-top: 20px;
     border-radius: 20px;
@@ -66,7 +68,9 @@ main{
 }
 #secaoprincipal{
     color: white;
+    
 }
+
 #secaoprincipal h1{
     font-size: 50px;
     padding: 20px;
@@ -74,6 +78,11 @@ main{
 #secaoprincipal p {
     text-align: justify;
     padding: 50px;
+}
+
+.video > iframe{
+    width: 58%;
+    height: 400px;
 }
 #fundopolo{
     background-image: url('imagens/fundopolo.jpg');
