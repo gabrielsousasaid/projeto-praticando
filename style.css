@@ -23,7 +23,7 @@ header{
 header > h1{
     color: white;
     padding: 20px;
-    font-size: 40px;
+
 }
 header > h2 {
     color: white;
@@ -71,10 +71,7 @@ main{
     
 }
 
-#secaoprincipal h1{
-    font-size: 50px;
-    padding: 20px;
-}
+
 #secaoprincipal p {
     text-align: justify;
     padding: 50px;
@@ -98,4 +95,19 @@ main{
     background-image: url('imagens/fundohb20.jpg');
     background-attachment: fixed;
     background-size: cover;
+}
+h1 {
+  font-size: clamp(1.5rem, 5vw, 3rem);
+}
+footer{
+    background-color: rgba(255, 255, 255, 0.647);
+    min-height: 50px;
+    margin-top: 30px;
+
+}
+footer > p{
+    text-align: center;
+    padding-top: 20px;
+    font-weight: bolder;
+    font-size: 1.2em;
 }
