@@ -75,6 +75,7 @@ main{
 #secaoprincipal p {
     text-align: justify;
     padding: 50px;
+    color: white;
 }
 
 .video > iframe{
